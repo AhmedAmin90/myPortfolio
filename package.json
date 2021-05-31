@@ -1,0 +1,25 @@
+{
+  "name": "protfolio",
+  "version": "1.0.0",
+  "description": "My Portfolio ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedAmin90/myPortfolio.git"
+  },
+  "author": "Ahmed Amin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmedAmin90/myPortfolio/issues"
+  },
+  "homepage": "https://github.com/AhmedAmin90/myPortfolio#readme",
+  "devDependencies": {
+    "css-loader": "^5.2.6",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
