@@ -137,3 +137,88 @@ h1 {
     right: 220px;
     top: 35px;
 }
+
+
+
+/* Portfolio Section */
+
+.portfolio{
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    justify-content: space-between;
+    padding: 20px 20px;
+    border-radius: 10px;
+    border: 1px solid #DFE1E6;
+}
+
+.poject-right {
+    flex-direction: row;
+}
+
+.poject-left {
+    flex-direction: row-reverse;
+}
+
+
+.proj-img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.proj-subtitle {
+    color: #344563;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.subtitle-details {
+    color: #6B778C;
+}
+
+.dot-separtion {
+    font-size: 40px;
+    font-weight: 700;
+    color: #C1C7D0;
+}
+
+.proj-details {
+    width: 50%;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.proj-description {
+    color: #344563;
+}
+
+.proj-languages {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.language {
+    background-color: #EBEBFF ;
+    color: #6070FF;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.see-proj-btn {
+    width: 125px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px #DFE1E6 solid;
+    cursor: pointer;
+}
+
+.see-proj-btn a {
+    color: #396DF2;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+}

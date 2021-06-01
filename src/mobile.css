@@ -104,6 +104,56 @@
     .hero-section-text {
         padding: 20px;
     }
+
+    .proj-languages{
+        margin: 10px 0;
+    }
+
+    .language {
+        font-size: 10px;
+        background-color: #EBEBFF ;
+        color: #6070FF;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+  }
+
+  @media only screen and (max-width: 769px){
+    .portfolio{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .proj-img {
+        width: 100%;  
+    }
+    .proj-details {
+        width: 100%;
+        padding: 0 25px;
+    }
+
+    .see-proj-btn {
+        align-self: center;
+    }
+    
+  }
+
+  @media only screen and (max-width: 426px){
+    .proj-languages {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .proj-subtitle  {
+        width: 100%;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .language {
+        margin: 5px;
+    }
   }
 
 @media only screen and (max-width: 321px) {
