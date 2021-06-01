@@ -26,4 +26,91 @@
         left: -50px;
         top: 68px;
     }
+
+    .hero-section-text {
+        width: 327px;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .my-description {
+        color: #172B4D;
+        font-size: 15px;
+        height: 98px;
+    }
+    
+    .connect-text {
+        margin-top: 50px;
+        font-size: 15px;
+        color: #172B4D;
+    }
+    
+    .social-icons {
+        color: #505F79;
+        font-size: 16px;
+        list-style: none;
+        display: flex;
+        width: 90px;
+        justify-content: space-evenly;
+    }
+    
+    .social-icons li:hover {
+        cursor: pointer;
+        color: #172B4D;
+    }
+
+
+.lower-shapes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rec-5 {
+    position: relative;
+    top: 58px;
+    right: 120px;
+}
+
+.ellipse-12 {
+    position: relative;
+    left: 50px;
+}
+
+.ellipse-13 {
+    position: relative;
+    right: 0px;
+    top: 38px;
+}
+  }
+
+
+
+
+/* Special sizes */
+
+@media only screen and (max-width: 1024px) and (min-width: 426px) {
+    .hero-section-text {
+        padding: 20px;
+    }
+  }
+
+@media only screen and (max-width: 321px) {
+    .lower-shapes {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .ellipse-4 {
+        position: relative;
+        left: 200px;
+    }
+    .rec-5 {
+        position: relative;
+        top: 58px;
+        left: 80px;
+    }
   }
