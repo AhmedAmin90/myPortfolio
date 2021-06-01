@@ -15,6 +15,7 @@
 nav {
     display: flex;
     justify-content: space-between;
+    height: 70px;
 }
 
 .my-logo {
@@ -25,18 +26,26 @@ nav {
 
 .navigation-nav {
     width: 30%;
+    color: #344563;
+    font-size: 15px;
+    align-self:center
 }
 
 .navigation-nav ul {
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.navigation-nav ul li:hover {
+    cursor: pointer;
 }
 
 
 /* Hero Section */
 
 .upper-shapes {
+    margin-top: 75px;
     display: flex;
     justify-content: space-between;
 }
@@ -96,7 +105,11 @@ h1 {
     justify-content: space-between;
 }
 
-.social-icons li:hover {
+.social-icons li a {
+    color: #505F79;
+}
+
+.social-icons li a:hover {
     cursor: pointer;
     color: #172B4D;
 }
