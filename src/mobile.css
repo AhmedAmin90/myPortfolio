@@ -154,6 +154,17 @@
     .language {
         margin: 5px;
     }
+
+    .feature-projcts{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .feature-proj-box{
+        width: 75%;
+        margin: 0 auto;
+        height: 100%;
+        height: 300px;
+    }
   }
 
 @media only screen and (max-width: 321px) {

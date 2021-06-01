@@ -10,6 +10,11 @@
      text-decoration: none;
  }
 
+ .hide {
+     display: none;
+     z-index: -1;
+ }
+
 
  /*  Header */
 
@@ -229,6 +234,87 @@ h1 {
 }
 
 
+/* Feature projects */
+.feature-projcts{
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature-proj-box{
+    width: 25%;
+    height: 100%;
+    height: 300px;
+}
+
+.feature-proj-box img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.box-1 {
+    background: url("../dist/assets/projects-img/business\ articles.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.feature-proj-box-1:hover + .box-1 {
+ display: block;
+}
+
+.box-2 {
+    background: url("../dist/assets/projects-img/shooter.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.box-3 {
+    background: url("../dist/assets/projects-img/indeed-web-scrapper.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.hidden-btn{ 
+    background-color: #172b4db4;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.hidden-btn:hover {
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+
+.hidden-btn button {
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #637AFB;
+    margin-top: 50%;
+    cursor: pointer;
+}
+
+.all-proj-btn {
+    width: 20%;
+    height: 50px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #637AFB;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.all-proj-btn a{
+    color: white;
+}
+
+
+/* Show Feature projects */
+
 
 /* Portfolio page */
 
@@ -236,8 +322,10 @@ h1 {
     text-align: center;
     background-color:#637AFB;
     border-radius: 5px;
+    margin: 20px 0;
 }
 
 .all-projects h1 {
     color: white;
 }
+
