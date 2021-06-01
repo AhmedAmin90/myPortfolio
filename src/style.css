@@ -214,6 +214,7 @@ h1 {
     border-radius: 5px;
     border: 1px #DFE1E6 solid;
     cursor: pointer;
+    margin-top: 5px;
 }
 
 .see-proj-btn a {
