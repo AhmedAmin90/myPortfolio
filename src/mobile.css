@@ -136,6 +136,34 @@
     .see-proj-btn {
         align-self: center;
     }
+
+    .all-proj-btn{
+        width: 60%;
+    }
+
+    .about-me {
+        flex-direction: column-reverse;
+    }
+
+    .about-me-text  {
+        width: 100%;
+        align-items: center;
+    }
+
+    .skills-tabs{
+        width: 100%;
+    }
+
+    .download-cv{
+        width: 50%;
+    }
+    
+    .hidden-tab{
+        /* display: flex; */
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+    }
     
   }
 
