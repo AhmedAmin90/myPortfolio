@@ -432,6 +432,7 @@ h1 {
 
 .feature-proj-img {
     width: 90%;
+    max-height: 550px;
     margin: 0 auto;
     border-radius: 10px;
 }
