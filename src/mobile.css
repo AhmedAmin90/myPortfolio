@@ -193,6 +193,18 @@
         height: 100%;
         height: 300px;
     }
+    #feature-first {
+        position: absolute;
+        top: 800px;
+    }
+     #feature-two{
+        position: absolute;
+        top: 1000px;
+    } 
+    #feature-three {
+        position: absolute;
+        top: 1400px;
+    }
   }
 
 @media only screen and (max-width: 321px) {
