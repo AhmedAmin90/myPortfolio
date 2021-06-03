@@ -456,3 +456,27 @@ h1 {
     cursor: pointer;
     color: red;
 }
+
+/* Contact me */
+.contact-me {
+    height: 500px;
+    background-color: #6070FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-top-left-radius: 100px;
+    margin: 100px 0 0 0;
+    text-align: center;
+
+}
+
+.contact-me h1 {
+    color: white;
+}
+
+.contact-me p {
+    width: 50%;
+    margin: 10px;
+} 

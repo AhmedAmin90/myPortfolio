@@ -205,6 +205,11 @@
         position: absolute;
         top: 1400px;
     }
+
+    .contact-me p {
+        width: 100%;
+        margin: 10px;
+    } 
   }
 
 @media only screen and (max-width: 321px) {

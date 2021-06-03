@@ -41,3 +41,4 @@ btnFeature3.addEventListener('click', ()=>{
 closeProFeature3.addEventListener('click' , ()=> {
     projFeature3.classList.toggle('hide')
 })
+
