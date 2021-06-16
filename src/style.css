@@ -213,7 +213,7 @@ h1 {
 
 .language {
     background-color: #EBEBFF ;
-    color: #6070FF;
+    color: #637afb;
     padding: 5px 10px;
     border-radius: 5px;
     margin: 5px;
@@ -229,7 +229,7 @@ h1 {
 }
 
 .see-proj-btn a {
-    color: #396DF2;
+    color: #172b4d;
     font-size: 17px;
     font-weight: 500;
     text-decoration: none;
@@ -461,7 +461,7 @@ h1 {
 /* Contact me */
 .contact-me {
     height: 500px;
-    background-color: #6070FF;
+    background-color: #637afb;
     display: flex;
     flex-direction: column;
     justify-content: center;
